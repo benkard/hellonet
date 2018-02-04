@@ -1,0 +1,6 @@
+.idea
+obj
+bin
+*~
+*.userprefs
+.DS_Store

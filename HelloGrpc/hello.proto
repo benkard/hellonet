@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package HelloNet.Api;
+
+service HelloSayer {
+   rpc SayHello(HelloRequest) returns (HelloResponse) {}
+}
+
+message HelloRequest {
+  string greetee = 1;
+}
+
+message HelloResponse {
+}
