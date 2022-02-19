@@ -12,5 +12,5 @@ dotnet build
 # How to Run
 
 ```sh
-dotnet HelloApp/bin/Debug/netcoreapp2.0/HelloApp.dll
+dotnet HelloApp/bin/Debug/net6.0/HelloApp.dll
 ```
